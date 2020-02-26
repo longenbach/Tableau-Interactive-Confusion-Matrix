@@ -58,13 +58,13 @@ def random_xyTrue(label_num,number_classes=len(encoder.classes_),eps=0.05):
     return (r-number_classes)*-1
 ```
 <p align="center">
-  <img src="imgs/Data_head().png" width="800"/>
+  <img src="imgs/Data_head()_r.png" width="800"/>
 </p>
 
 3)  Write to data frame to google sheets for example and connect with Tableau. 
 
 <p align="center">
-  <img src="imgs/DF_to_Tableau.png" width="800"/>
+  <img src="imgs/DF_to_Tableau.png" width="400"/>
 </p>
 
 
