@@ -17,3 +17,30 @@ When recently working on a semi-supervised text classification project for Unite
 
 The new interactive Tableau confusion matrix solves tries to solve this issue.
 
+### How:
+
+I use a straightforward dataset to show the structure of this new confusion matrix. The dataset used are text posts from Google each with an associated code tag (Python, C, Java, HTML). The text classification model was copied from Github user  to generate predicted tags for each of these posts. To create the new interactive confusion matrix we just need a few more fields.  
+
+1) Assign each label/tag to an integer value. Using a LabelEncoder in Sklearn is an easy way to accomplish this. 
+
+2)  For each text post give it a random (x,y) coordinate based on its true and predicted label.
+```python
+def random_xyPredicted(label_num,eps=0.05):
+    label_num = int(label_num)
+    return np.random.uniform(label_num+eps,label_num+1-eps,1)[0]
+
+def random_xyTrue(label_num,number_classes=len(encoder.classes_),eps=0.05):
+    label_num = int(label_num)
+    r = np.random.uniform(label_num+eps,label_num+1-eps,1)[0]
+    return (r-number_classes)*-1
+```
+
+3)  Write to data frame to google sheets for example and connect with Tableau. 
+
+
+
+
+
+
+
+
