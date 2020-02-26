@@ -11,10 +11,10 @@
 
 A confusion matrix or error matrix is a tabular visualization to access the performance of a classification model. In the binary case, it allows us to examine the number of false positives and negatives. In the multi-class case, it allows us to examine more generally which classes the model is mixing up. 
 
-<p float="center">
+<figure>
   <img src="imgs/Binary_CM.jpg" width="400"/>
-  <em>image_caption</em>
-</p>
+  <figcaption>This is my caption text.</figcaption>
+</figure>
 
 ### Why:
 
