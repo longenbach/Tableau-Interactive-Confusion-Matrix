@@ -2,6 +2,7 @@
 
 <p float="center">
   <img src="imgs/Tableau_Demo.mov"/>
+  <em>image_caption</em>
 </p>
 
 
