@@ -53,13 +53,18 @@ I use a straightforward dataset to show the structure of this new confusion matr
   <img src="imgs/Data_head()_r.png" width="800"/>
 </p>
 
-#### 3)  Write to data frame to google sheets for example and connect with Tableau. 
+#### 3)  Write to data frame to CSV file or write to google sheets for more seamless connection to Tableau. 
 
 <p align="center">
   <img src="imgs/DF_to_Tableau.png" width="400"/>
 </p>
 
-For a more detailed process see my [[Colaboratory notebook]]().
+View code for more detailed process: [[Colaboratory notebook]](https://github.com/longenbach/Tableau-Interactive-Confusion-Matrix/blob/master/notebooks/Classification_Code.ipynb).
+
+Link to [[.csv file]](https://github.com/longenbach/Tableau-Interactive-Confusion-Matrix/blob/master/notebooks/Tableau_CSV.csv)
+Link to [[Tableau notebook]](https://github.com/longenbach/Tableau-Interactive-Confusion-Matrix/blob/master/notebooks/Confusion_Matrix.twbx)
+
+
 
 
 
