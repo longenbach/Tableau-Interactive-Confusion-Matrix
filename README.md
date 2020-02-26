@@ -1,5 +1,7 @@
 # Interactive Confusion Matrix
 
+#### A innovative way to visualize text misclassifications within a confusion matrix in Tableau:
+
 <p float="center">
   <img src="imgs/Tableau_Static.png"/>
 </p>
@@ -67,7 +69,7 @@ View Colaboratory notebook for more details on creating csv file for Tableau not
 
 
 #### Files:
-Link to [[Colaboratory notebook]](https://github.com/longenbach/Tableau-Interactive-Confusion-Matrix/blob/master/notebooks/Classification_Code.ipynb).
+Link to [[Colaboratory notebook]](https://github.com/longenbach/Tableau-Interactive-Confusion-Matrix/blob/master/notebooks/Classification_Code.ipynb)
 
 Link to [[csv file]](https://github.com/longenbach/Tableau-Interactive-Confusion-Matrix/blob/master/notebooks/Tableau_CSV.csv)
 
