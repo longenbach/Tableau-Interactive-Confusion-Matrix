@@ -47,7 +47,7 @@ I use a straightforward dataset to show the structure of this new confusion matr
   <img src="imgs/Data_head().png" width="800"/>
 </p>
 
-#### 2)  For each text post give it a random (x,y) coordinate based on its true and predicted label.
+#### 2)  Give each text post a random (x,y) coordinate based on its true and predicted label.
 
 <p align="center">
   <img src="imgs/Data_head()_r.png" width="800"/>
@@ -59,7 +59,7 @@ I use a straightforward dataset to show the structure of this new confusion matr
   <img src="imgs/DF_to_Tableau.png" width="400"/>
 </p>
 
-
+For a more detailed process see my [[Colaboratory notebook]]().
 
 
 
