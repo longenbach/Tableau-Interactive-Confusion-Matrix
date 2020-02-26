@@ -20,7 +20,7 @@ A confusion matrix or error matrix is a tabular visualization to access the perf
 
 In classification problems where features are numeric (ex. age, weight, or shoe size) distribution plots can be used to further visualize the feature differences between false positives and true positives. However, in cases where features are a single string of text (ex. blog post, a question, a review), visualizing the cause of misclassification can prove to be challenging. 
 
-In text classification, first you have to decide on how to encode the text based information. Bag of words, Tf-Idf, Word2Vec, or more advanced embeddings (ELMo & BERT) are commonly used to represent text as numerical features. Once feature engineering is complete, secondly you have to decide on what classification model to test. [[Image Source]](https://towardsdatascience.com/deep-learning-structured-data-8d6a278f3088)
+In text classification, first you have to decide on how to encode the text based information. Bag of words, Tf-Idf, Word2Vec, or more advanced embeddings ([ELMo & BERT](http://jalammar.github.io/illustrated-bert/)) are commonly used to represent text as numerical features. Once feature engineering is complete, secondly you have to decide on what classification model to test. [[Image Source]](https://towardsdatascience.com/deep-learning-structured-data-8d6a278f3088)
 
 <p align="center">
   <img src="imgs/Model_Choices.png" width="700"/>
