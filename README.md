@@ -63,7 +63,7 @@ View Colaboratory notebook for more details on creating csv file for Tableau not
 
 ## Interactive Confusion Matrix:
 
-By being able to examine the text which is being misclassified can start to give you a better idea on why the current model might be failing. For example, is the issue semantics or spelling errors or maybe it’s very challenging problem given the available data. NLP problems are difficult but sometimes the best thing you can do to start is visualize your data.   
+Being able to examine the text which is being misclassified can start to give you a better idea on why the current model might be failing. For example, is the issue semantics or spelling errors or maybe it’s very challenging problem given the available data. NLP problems are difficult but sometimes the best thing you can do to start is visualize your data.   
 
 Below is a general visual framework:
 -   Another option is to display only important words not the entire text post.  
@@ -73,13 +73,12 @@ Below is a general visual framework:
   <img src="imgs/Tableau_Demo.gif"/>
 </p>
 
-
 #### Files:
 Link to [[Colaboratory notebook]](https://github.com/longenbach/Tableau-Interactive-Confusion-Matrix/blob/master/notebooks/Classification_Code.ipynb)
 
 Link to [[csv file]](https://github.com/longenbach/Tableau-Interactive-Confusion-Matrix/blob/master/notebooks/Tableau_CSV.csv)
 
-Link to [[Tableau notebook]](https://github.com/longenbach/Tableau-Interactive-Confusion-Matrix/blob/master/notebooks/Confusion_Matrix.twbx)
+Link to [[Tableau notebook]](https://github.com/longenbach/Tableau-Interactive-Confusion-Matrix/blob/master/notebooks/Confusion_Matrix_copy.twbx)
 
 
 
