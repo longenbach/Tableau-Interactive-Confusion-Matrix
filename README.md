@@ -3,7 +3,7 @@
 #### A innovative way to visualize text misclassifications within a confusion matrix in Tableau:
 
 <p float="center">
-  <img src="imgs/Tableau_Static.png"/>
+  <img src="imgs/Tableau_Demo.gif.png"/>
 </p>
 
 
