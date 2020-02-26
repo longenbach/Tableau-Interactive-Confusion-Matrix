@@ -39,7 +39,7 @@ The new interactive Tableau confusion matrix solves tries to solve this issue.
 ## How:
 
 #### 0) Example Data
-I use a straightforward dataset to show the structure of this new confusion matrix. The dataset used are text posts from Google each with an associated code tag (Python, C, Java, HTML). The text classification model was copied from Github user [sararob] (https://github.com/tensorflow/workshops/blob/master/extras/keras-bag-of-words/keras-bow-model.ipynb) to generate predicted labels for each of these text posts. To create the new interactive confusion matrix we just need a few more data fields:
+I use a straightforward dataset to show the structure of this new confusion matrix. The dataset used are text posts from Google each with an associated code tag (Python, C, Java, HTML). The text classification model was copied from Github user [sararob](https://github.com/tensorflow/workshops/blob/master/extras/keras-bag-of-words/keras-bow-model.ipynb) to generate predicted labels for each of these text posts. To create the new interactive confusion matrix we just need a few more data fields:
 
 #### 1) Assign each label/tag to an integer value. Using a LabelEncoder in Sklearn is an easy way to accomplish this. 
 
