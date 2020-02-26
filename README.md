@@ -80,5 +80,5 @@ Link to [[csv file]](https://github.com/longenbach/Tableau-Interactive-Confusion
 
 Link to [[Tableau notebook]](https://github.com/longenbach/Tableau-Interactive-Confusion-Matrix/blob/master/notebooks/Confusion_Matrix_copy.twbx)
 
-
+#### Open to feedback and suggestions. 
 
