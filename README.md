@@ -68,6 +68,7 @@ Being able to examine the text which is being misclassified can start to give yo
 Below is a general visual framework:
 -   Another option is to display only important words not the entire text post.  
 -   Filter or size points based on probability a post belongs to a certain class. 
+-   *Open to feedback and suggestions.*
 
 <p float="center">
   <img src="imgs/Tableau_Demo.gif"/>
@@ -80,5 +81,5 @@ Link to [[csv file]](https://github.com/longenbach/Tableau-Interactive-Confusion
 
 Link to [[Tableau notebook]](https://github.com/longenbach/Tableau-Interactive-Confusion-Matrix/blob/master/notebooks/Confusion_Matrix_copy.twbx)
 
-#### Open to feedback and suggestions. 
+
 
