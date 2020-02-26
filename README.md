@@ -9,7 +9,7 @@
 
 ## What:
 
-A confusion matrix or error matrix is a tabular visualization to access the performance of a classification model. In the binary case, it allows us to examine the number of false positives and negatives. In the multi-class case, it allows us to examine more generally which classes the model is mixing up. [[Image Source]](https://manisha-sirsat.blogspot.com/2019/04/confusion-matrix.html)
+A confusion matrix or error matrix is a tabular visualization used to assess the performance of a classification model. In the binary case, it allows us to examine the number of false positives and negatives. In the multi-class case, it allows us to examine more generally which classes the model is mixing up. [[Image Source]](https://manisha-sirsat.blogspot.com/2019/04/confusion-matrix.html)
 
 <p align="center">
   <img src="imgs/Binary_CM.jpg" width="400"/>
@@ -26,9 +26,9 @@ In text classification, first you have to decide on how to encode the text based
   <img src="imgs/Model_Choices.png" width="700"/>
 </p>
 
-Test accuracy and statistics can be used when evaluating combinations of 1) method to encode text numerically and 2) architecture of classification model. However, sometimes simply chasing accuracy isn’t the best choice or even the initial goal. Instead modeling testing can be used to evaluate the strength of the data. Machine learning is not magic as it is only as good as the data we put in. 
+Test accuracy and statistics can be used when evaluating a given combination of 1) encoding text numerically and 2) the architecture of the classification model. However, sometimes simply chasing accuracy isn’t the best choice or even the initial goal. Instead modeling testing can be used to evaluate the strength of the data. Machine learning is not magic as it is only as good as the data we put in. 
 
-When recently working on a semi-supervised text classification project for United Technolgies (UTC), we were using confusion matrices to evaluate models like discussed above. To better understand our data and text misclassifications sometimes the best thing you can do is look at your data. In general, it can also be helpful to look at which tokens are associated with predicting a certain class. Inspecting your data gets at the question could a human manually label this text correctly? While a confusion matrix allows for counting the number of misclassifications, it doesn’t allow for viewing the misclassifications itself. 
+When recently working on a semi-supervised text classification project for United Technolgies (UTC), my team used confusion matrices to evaluate models like discussed above. To better understand our data and text misclassifications sometimes the best thing you can do is look at your data. In general, it can also be helpful to look at which tokens are associated with predicting a certain class. Inspecting your data gets at the question: could a human manually label this text correctly? While a confusion matrix allows for counting the number of misclassifications, it doesn’t allow for viewing the misclassifications itself. 
 
 <p align="center">
   <img src="imgs/CM.png" width="500"/>
@@ -39,7 +39,7 @@ The new interactive Tableau confusion matrix looks to tackle this issue.
 ## How:
 
 #### 0) Example Data
-I use a straightforward dataset to show the structure of this new confusion matrix. The dataset used are text posts from Google each with an associated code tag (Python, C, Java, HTML). The text classification model was copied from Github user [sararob](https://github.com/tensorflow/workshops/blob/master/extras/keras-bag-of-words/keras-bow-model.ipynb) to generate predicted labels for each of these text posts. To create the new interactive confusion matrix we just need a few more data fields:
+I used a straightforward dataset to show the structure of this new confusion matrix. The dataset used are text posts from Google each with an associated code tag (Python, C, Java, HTML). The text classification model was copied from Github user [sararob](https://github.com/tensorflow/workshops/blob/master/extras/keras-bag-of-words/keras-bow-model.ipynb) to generate predicted labels for each of these text posts. To create the new interactive confusion matrix we just need a few more data fields:
 
 #### 1) Assign each label/tag to an integer value. Using a LabelEncoder in Sklearn is an easy way to accomplish this. 
 
@@ -67,7 +67,7 @@ Being able to examine the text which is being misclassified can start to give yo
 
 Below is a general visual framework:
 -   Another option is to display only important words not the entire text post.  
--   Filter or size points based on probability a post belongs to a certain class. 
+-   Filter or size points based on the probability a post belongs to a certain class. 
 -   *Open to feedback and suggestions.*
 
 <p float="center">
