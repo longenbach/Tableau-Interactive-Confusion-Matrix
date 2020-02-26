@@ -13,12 +13,12 @@ A confusion matrix or error matrix is a tabular visualization to access the perf
 
 <p align="center">
   <img src="imgs/Binary_CM.jpg" width="400"/>
-  
 </p>
-
-
-
+<center>
+  
 [Confusion Matrix](https://manisha-sirsat.blogspot.com/2019/04/confusion-matrix.html)
+
+</center>
 
 ### Why:
 
