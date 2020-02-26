@@ -34,7 +34,7 @@ When recently working on a semi-supervised text classification project for Unite
   <img src="imgs/CM.png" width="500"/>
 </p>
 
-The new interactive Tableau confusion matrix solves tries to solve this issue.
+The new interactive Tableau confusion matrix looks to tackle this issue.
 
 ## How:
 
