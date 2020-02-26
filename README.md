@@ -57,21 +57,21 @@ I use a straightforward dataset to show the structure of this new confusion matr
   <img src="imgs/DF_to_Tableau.png" width="400"/>
 </p>
 
-View Colaboratory notebook for more details on process above.
+View Colaboratory notebook for more details on creating csv file for Tableau notebook. 
 
-Link to [[Colaboratory notebook]](https://github.com/longenbach/Tableau-Interactive-Confusion-Matrix/blob/master/notebooks/Classification_Code.ipynb).
-
-Link to [[.csv file]](https://github.com/longenbach/Tableau-Interactive-Confusion-Matrix/blob/master/notebooks/Tableau_CSV.csv)
-
-Link to [[Tableau notebook]](https://github.com/longenbach/Tableau-Interactive-Confusion-Matrix/blob/master/notebooks/Confusion_Matrix.twbx)
-
-
+## Interactive Confusion Matrix:
 
 <p float="center">
   <img src="imgs/Tableau_Demo.gif"/>
 </p>
 
 
+#### Files:
+Link to [[Colaboratory notebook]](https://github.com/longenbach/Tableau-Interactive-Confusion-Matrix/blob/master/notebooks/Classification_Code.ipynb).
+
+Link to [[csv file]](https://github.com/longenbach/Tableau-Interactive-Confusion-Matrix/blob/master/notebooks/Tableau_CSV.csv)
+
+Link to [[Tableau notebook]](https://github.com/longenbach/Tableau-Interactive-Confusion-Matrix/blob/master/notebooks/Confusion_Matrix.twbx)
 
 
 
