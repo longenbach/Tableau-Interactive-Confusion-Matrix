@@ -1,6 +1,6 @@
 # Interactive Confusion Matrix
 
-#### *A innovative way to visualize text misclassifications within a confusion matrix in Tableau:*
+#### *A innovative way to visualize text misclassifications within a confusion matrix in Tableau.*
 
 <p float="center">
   <img src="imgs/Tableau_Demo.gif"/>
@@ -62,6 +62,12 @@ I use a straightforward dataset to show the structure of this new confusion matr
 View Colaboratory notebook for more details on creating csv file for Tableau notebook. 
 
 ## Interactive Confusion Matrix:
+
+By being able to examine the text which is being misclassified can start to give you a better idea on why the current model might be failing. For example, is the issue semantics or spelling errors or maybe it’s very challenging problem given the available data. NLP problems are difficult but sometimes the best thing you can do to start is visualize your data.   
+
+Below is a general visual framework:
+-   Another option is to display only important words not the entire text post.  
+-   Filter or size points based on probability a post belongs to a certain class. 
 
 <p float="center">
   <img src="imgs/Tableau_Demo.gif"/>
