@@ -1,4 +1,4 @@
-<meta name="image" property="og:image" content="imgs/Binary_CM.jpg">
+<meta name="image" property="og:image">
 
 # Interactive Confusion Matrix
 
