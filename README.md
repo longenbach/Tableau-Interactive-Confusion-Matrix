@@ -1,3 +1,5 @@
+<meta name="image" property="og:image" content="imgs/Binary_CM.jpg">
+
 # Interactive Confusion Matrix
 
 #### *An innovative way to visualize text misclassifications within a confusion matrix in Tableau.*
